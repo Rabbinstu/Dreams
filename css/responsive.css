@@ -1,0 +1,138 @@
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+  .portfolio-section h2 {
+  font-size: 22px;
+}
+.portfolio-section h2::after {
+  left: 35%;
+}
+.service-section h2::after {
+  left: 43%;
+}
+.experiene-section h2 {
+  font-size: 23px;
+}
+.experiene-section h2::after {
+  left: 38%;
+}
+.learn-more {
+  margin-left: 23%;
+  margin-bottom: 12%;
+}
+.team-section h2 {
+  font-size: 23px;
+}
+.team-section h2::after {
+  left: 42%;
+}
+.experiene-info p {
+  font-size: 13px;
+  padding: 2% 0;
+  width: 75%;
+}
+.service-section h2 {
+  font-size: 23px;
+}
+.service-section i {
+  color: #bfbfbf;
+  font-size: 23px;
+  margin: 4% 0 3%;
+}
+.service-section h4 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.service-section p {
+  color: #bfbfbf;
+  width: 70%;
+  margin-left: 14%;
+}
+.experiene-info p {
+  color: #8a8a8a;
+  float: left;
+  font-size: 13px;
+  padding: 2% 0;
+  width: 70%;
+}
+.experiene-cont i {
+  color: #797979;
+  float: left;
+  font-size: 21px;
+  margin: 0 2% 0 0;
+}
+.experiene-cont {
+  float: left;
+  margin-bottom: 4%;
+  margin-left: 20%;
+}
+.experiene-cont h4 {
+  font-size: 18px;
+}
+.portfolio-info i {
+  font-size: 21px;
+  margin: 0 2% 0 0;
+}
+.portfolio-item-details{
+  color: #797979;
+  padding: 2% 0;
+  width: 70%;
+}
+.team-section p {
+  margin: 0 0 0 16%;
+  width: 70%;
+}
+.contact-details P {
+  font-size: 17px;
+  margin: 0 0 0 25%;
+  padding: 2% 0;
+}
+.contact-section h2 {
+  font-weight: 700;
+  margin: 8px;
+  text-transform: uppercase;
+  font-size: 23px;
+  margin-left: 25%;
+}
+.contact-section p {
+  margin: 5px 5px 5px 23%;
+}
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+}
+
